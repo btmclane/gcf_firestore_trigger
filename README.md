@@ -11,5 +11,5 @@ gcloud functions deploy demo_firestore_trigger \
 --entry-point demoFirestoreTrigger \
 --runtime nodejs18 \
 --trigger-event "providers/cloud.firestore/eventTypes/document.create" \
---trigger-resource "projects/sp22-41200-elliott-dev-travel/databases/(default)/documents/demo/{pushId}"
+--trigger-resource "projects/sp22-41200-elliott-dev-travel/databases/(default)/documents/students/{pushId}"
 ```
