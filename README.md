@@ -4,7 +4,7 @@ This demo code shows how to trigger a Google Cloud Function when a document is c
 ## Deploying the Cloud Function
 The following command should be executed in the **same** Google Cloud Project as the Firestore database.
 
-In this example, it will run when a new document is added to the `students` collection in the `(default)` database.
+In this example, the cloud function will execute when a new document is added to the `students` collection in the `(default)` database.
 
 ```
 gcloud functions deploy demo_firestore_trigger \
